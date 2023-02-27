@@ -3,7 +3,7 @@
 
 Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 
-a = 5, b = 7 -> max = 7 >> [Код](Homework/Homework_01/Ex01/Program.cs)
+a = 5, b = 7 -> max = 7 >> [Блок-схема](Homework/Homework_01/Ex01/diagram_hw01ex01.drawio.png) >> [Код](Homework/Homework_01/Ex01/Program.cs)
 
 a = 2, b = 10 -> max = 10 >> [Код](Homework/Homework_01/Ex01_2/Program.cs)
 
@@ -11,7 +11,7 @@ a = -9, b = -3 -> max = -3 >> [Код](Homework/Homework_01/Ex01_3/Program.cs)
 
 Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
-2, 3, 7 -> 7 >> [Код](Homework/Homework_01/Ex02/Program.cs)
+2, 3, 7 -> 7 >> [Блок-схема](Homework/Homework_01/Ex02/diagram_hw01ex02.drawio.png) >> [Код](Homework/Homework_01/Ex02/Program.cs)
 
 44, 5, 78 -> 78 >> [Код](Homework/Homework_01/Ex02_2/Program.cs)
 
