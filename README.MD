@@ -1,16 +1,16 @@
 - Homework
- - Homework_01
- - Homework_02
- - Homework_03
+  - Homework_01
+  - Homework_02
+  - Homework_03
 - Lecture
- - Lecture_01
- - Lecture_02
- - Lecture_03
+  - Lecture_01
+  - Lecture_02
+  - Lecture_03
 - Seminar
- - Seminar_01
-  - Ex001 
-  ### Вывести квадрат числа | [Код](Seminar/Seminar_01/Ex001/Program.cs)
-  - Ex002 [Код](Seminar/Seminar_01/Ex002/Program.cs)
-  - Ex003 [Код](Seminar/Seminar_01/Ex003/Program.cs)
- - Seminar_02
- - Seminar_03
+  - Seminar_01
+- Ex001 
+  #### Вывести квадрат числа | [Блок-схема](Seminar/Seminar_01/Ex001/diagram.drawio.png) >> [Код](Seminar/Seminar_01/Ex001/Program.cs)
+- Ex002 [Код](Seminar/Seminar_01/Ex002/Program.cs)
+- Ex003 [Код](Seminar/Seminar_01/Ex003/Program.cs)
+   - Seminar_02
+   - Seminar_03
