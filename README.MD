@@ -19,7 +19,7 @@ a = -9, b = -3 -> max = -3 >> [Код](Homework/Homework_01/Ex01_3/Program.cs)
 
 Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
-4 -> да >> [Код](Homework/Homework_01/Ex03/Program.cs)
+4 -> да >> [Блок-схема](Homework/Homework_01/Ex03/diagram_hw01ex03.drawio.png) >> [Код](Homework/Homework_01/Ex03/Program.cs)
 
 -3 -> нет >> [Код](Homework/Homework_01/Ex03_2/Program.cs)
 
@@ -27,7 +27,7 @@ a = -9, b = -3 -> max = -3 >> [Код](Homework/Homework_01/Ex01_3/Program.cs)
 
 Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
-5 -> 2, 4 >> [Код](Homework/Homework_01/Ex04/Program.cs)
+5 -> 2, 4 >> [Блок-схема](Homework/Homework_01/Ex04/diagram_hw01ex04.drawio.png) >> [Код](Homework/Homework_01/Ex04/Program.cs)
 
 8 -> 2, 4, 6, 8 >> [Код](Homework/Homework_01/Ex04_2/Program.cs)
 
