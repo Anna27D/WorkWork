@@ -1,4 +1,6 @@
-﻿int a = 4;
+﻿Console.Write("Введите первое число ");
+int a = Convert.ToInt32(Console.ReadLine());
+
 if (a % 2 == 0)
 {
     Console.WriteLine("да");

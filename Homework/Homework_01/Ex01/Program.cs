@@ -1,6 +1,11 @@
-﻿int a = 5;
-int b = 7;
+﻿Console.Write("Введите первое число ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Введите второе число ");
+int b = Convert.ToInt32(Console.ReadLine());
+
 int max;
+
 if (a > b)
 {
     max = a;
