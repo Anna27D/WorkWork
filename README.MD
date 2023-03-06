@@ -5,7 +5,6 @@
 
 Решение: [Блок-схема](Homework/Homework_01/Ex01/diagram_hw01ex01.drawio.png) >> [Код](Homework/Homework_01/Ex01/Program.cs)
 
-
 Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
 Решение: [Блок-схема](Homework/Homework_01/Ex02/diagram_hw01ex02.drawio.png) >> [Код](Homework/Homework_01/Ex02/Program.cs)
@@ -17,6 +16,20 @@
 Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
 Решение: [Блок-схема](Homework/Homework_01/Ex04/diagram_hw01ex04.drawio.png) >> [Код](Homework/Homework_01/Ex04/Program.cs)
+
+ - Homework_02
+
+Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+
+Решение: [Блок-схема](Homework/Homework_02/Ex01/diagram_hw02ex01.drawio.png) >> [Код](Homework/Homework_02/Ex01/Program.cs)
+
+Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+
+Решение: [Блок-схема](Homework/Homework_02/Ex02/diagram_hw02ex02.drawio.png) >> [Код](Homework/Homework_02/Ex02/Program.cs)
+
+Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+
+Решение: [Блок-схема](Homework/Homework_02/Ex03/diagram_hw02ex03.drawio.png) >> [Код](Homework/Homework_02/Ex03/Program.cs)
 
 
 
