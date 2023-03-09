@@ -31,12 +31,17 @@
 
 Решение: [Блок-схема](Homework/Homework_02/Ex03/diagram_hw02ex03.drawio.png) >> [Код](Homework/Homework_02/Ex03/Program.cs)
 
+- Homework_03
 
+Задача 19: Напишите метод(-ы), который принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
-## Seminar
-  - Seminar_01
-- Ex001 
-  #### Вывести квадрат числа | [Блок-схема](Seminar/Seminar_01/Ex001/diagram.drawio.png) >> [Код](Seminar/Seminar_01/Ex001/Program.cs)
-- Ex002 [Код](Seminar/Seminar_01/Ex002/Program.cs)
-- Ex003 [Код](Seminar/Seminar_01/Ex003/Program.cs)
-  
+Решение: [Код](Homework/Homework_03/Ex01/Program.cs)
+
+Задача 21: Напишите метод(-ы), который принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
+
+Решение: [Код](Homework/Homework_03/Ex02/Program.cs)
+
+Задача 23: Напишите метод(-ы), который принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+Решение: [Код](Homework/Homework_03/Ex03/Program.cs)
+
