@@ -10,11 +10,11 @@ Sum(NumberA);
 
 void Sum(int NumberA)
 {
-int Sum = 0;
-for(int i = 0; i <= NumberA; i++)
-{
-    Sum = Sum + i;
-}
-Console.Write(Sum);
+    int Sum = 0;
+    for(int i = 0; i <= NumberA; i++)
+    {
+        Sum = Sum + i;
+    }
+    Console.Write(Sum);
 }
 

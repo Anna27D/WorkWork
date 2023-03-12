@@ -3,8 +3,26 @@
 //2, 4 -> 16
 
 Console.Write("Введите первое число ");
-int A = Convert.ToInt32(Console.ReadLine());
+int NumberA = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите второе число ");
-int B = Convert.ToInt32(Console.ReadLine());
+int NumberB = Convert.ToInt32(Console.ReadLine());
 
+Rate();
+
+void Rate()
+{
+    double Result = 0;
+    Result = Math.Pow(NumberA, NumberB);
+    Console.Write(Result);
+}
+
+//int Rate(int NumberA, int NumberB)
+//{
+//int Result = 0;
+//return Result = Convert.ToInt32(Math.Pow(NumberA, NumberB));
+//Console.Write(Result);
+//}
+//
+//int Result = Rate(NumberA, NumberB);
+//Console.Write(Result);
