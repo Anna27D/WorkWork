@@ -4,17 +4,17 @@
 //8 -> 36
 
 Console.Write("Введите число ");
-int A = Convert.ToInt32(Console.ReadLine());
+int NumberA = Convert.ToInt32(Console.ReadLine());
 
-Sum(A);
+Sum(NumberA);
 
-void Sum(int A)
+void Sum(int NumberA)
 {
-int S = 0;
-for(int i = 0; i <= A; i++)
+int Sum = 0;
+for(int i = 0; i <= NumberA; i++)
 {
-    S = S + i;
+    Sum = Sum + i;
 }
-Console.Write(S);
+Console.Write(Sum);
 }
 

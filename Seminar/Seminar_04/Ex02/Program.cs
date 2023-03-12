@@ -3,3 +3,12 @@
 //78 -> 2
 //89126 -> 5
 
+Console.Write("Введите число ");
+string countN = Console.ReadLine();
+
+Count(countN);
+
+void Count(string countN)
+{
+       Console.Write(countN.Length);
+}
