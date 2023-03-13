@@ -6,11 +6,11 @@
 Console.Write("Введите число ");
 
 string a = Console.ReadLine();
- if (a.Length > 2)
- {
-  Console.WriteLine(a[2]);
- }
+if (a.Length > 2)
+{
+    Console.WriteLine(a[2]);
+}
 else
 {
-   Console.Write("Третьей цифры нет");
+    Console.Write("Третьей цифры нет");
 }
