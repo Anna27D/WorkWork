@@ -4,12 +4,11 @@
 //[1 2 3 4 5] -> 5 8 3
 //[6 7 3 6] -> 36 21
 
-Console.WriteLine("Введите количество элементов: ");
+Console.Write("Введите количество элементов в массиве: ");
 int count = Convert.ToInt32(Console.ReadLine());
 
 int[] array = new int[count];
 int[] NewArray = new int[count / 2];
-
 
 void FillArray(int[] array, int count)
 {
@@ -42,4 +41,4 @@ FillArray(array, count);
 Console.WriteLine();
 Console.WriteLine();
 Pairs(array, NewArray);
- Console.WriteLine();
+Console.WriteLine();
