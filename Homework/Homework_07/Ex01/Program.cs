@@ -19,7 +19,7 @@ void FillArray(double[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = new Random().Next(-10, 10); // [1, 10)
+            matrix[i, j] = new Random().Next(-10, 10);
         }
     }
 }
@@ -43,6 +43,6 @@ Console.WriteLine();
 double[,] matrix = new double[m, n];
 
 FillArray(matrix);
-Console.WriteLine("Двумерный массив: ");
+Console.WriteLine("Массив: ");
 PrintArray(matrix);
 Console.WriteLine();

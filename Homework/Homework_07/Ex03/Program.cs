@@ -20,7 +20,7 @@ void FillArray(int[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = new Random().Next(1, 10); // [1, 10)
+            matrix[i, j] = new Random().Next(1, 10);
         }
     }
 }
@@ -49,7 +49,6 @@ void FindAverage(int[,] matrix, double[] Average)
             S = S + matrix[i, j];
         }
         Average[g] = ((double)S / matrix.GetLength(0));
-        //Console.WriteLine($"Среднее арифметическое {j} столбца: {Average[g]}");
         Console.Write($"{Average[g]:0.##}; ");
         g++;
     }
@@ -63,7 +62,7 @@ int[,] matrix = new int[m, n];
 double[] Average = new double[n];
 
 FillArray(matrix);
-Console.WriteLine("Двумерный массив: ");
+Console.WriteLine("Массив: ");
 PrintArray(matrix);
 Console.WriteLine();
 FindAverage(matrix, Average);

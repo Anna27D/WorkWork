@@ -17,18 +17,18 @@ else
 
 void Palindrom(string S)
 {
-int N = 0;
-    for(int i = 0, j = 4; i < 3; i++, j--)
+    int N = 0;
+    for (int i = 0, j = 4; i < 3; i++, j--)
     {
-        if(S[i] != S[j])
+        if (S[i] != S[j])
         {
             N = 1;
             Console.Write("Число не палиндром");
             break;
         }
     }
-    if(N == 0)
+    if (N == 0)
     {
-     Console.Write("Число палиндром");   
+        Console.Write("Число палиндром");
     }
 }
