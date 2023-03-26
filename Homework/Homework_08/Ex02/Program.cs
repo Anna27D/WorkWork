@@ -68,10 +68,9 @@ void Sum(int[,] matrix)
 }
 
 int m = GetNumber("Введите количество строк и столбцов в массиве: ");
-int n = m;
 Console.WriteLine();
 
-int[,] matrix = new int[m, n];
+int[,] matrix = new int[m, m];
 
 FillArray(matrix);
 Console.WriteLine("Массив: ");

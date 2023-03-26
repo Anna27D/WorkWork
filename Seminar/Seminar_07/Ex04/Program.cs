@@ -32,34 +32,40 @@ void PrintArray(int[,] matrix)
     }
 }
 
-void MatrixMulti(int[,] matrix, int[,] matrix2, int[,] Multi)
+void Multiplication(int[,] firstMatrix, int[,] secondMatrix, int[,] resultMatrix)
 {
-    for (int i = 0; i < matrix.GetLength(0); i++)
+    for (int i = 0; i < resultMatrix.GetLength(0); i++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
+        for (int j = 0; j < resultMatrix.GetLength(1); j++)
         {
-            Multi[i, j] = matrix[i, j] * matrix2[i, j];
+            int Sum = 0;
+            for (int k = 0; k < firstMatrix.GetLength(1); k++)
+            {
+                Sum += firstMatrix[i, k] * secondMatrix[k, j];
+            }
+            resultMatrix[i, j] = Sum;
         }
     }
 }
 
-int m = GetNumber("Введите количество строк в массиве: ");
-int n = GetNumber("Введите количество столбцов в массиве: ");
+int m = GetNumber("Введите количество строк: ");
+int k = m;
+int n = GetNumber("Введите количество столбцов: ");
+int l = n;
 Console.WriteLine();
+int[,] firstMatrix = new int[m, n];
+int[,] secondMatrix = new int[l, k];
 
-int[,] matrix = new int[m, n];
-int[,] matrix2 = new int[m, n];
-int[,] Multi = new int[m, n];
+int[,] resultMatrix = new int[m, k];
 
-FillArray(matrix);
-FillArray(matrix2);
-Console.WriteLine();
+FillArray(firstMatrix);
 Console.WriteLine("Первая матрица: ");
-PrintArray(matrix);
+PrintArray(firstMatrix);
 Console.WriteLine();
+FillArray(secondMatrix);
 Console.WriteLine("Вторая матрица: ");
-PrintArray(matrix2);
+PrintArray(secondMatrix);
 Console.WriteLine();
-MatrixMulti(matrix, matrix2, Multi);
+Multiplication(firstMatrix, secondMatrix, resultMatrix);
 Console.WriteLine("Произведение двух матриц: ");
-PrintArray(Multi);
+PrintArray(resultMatrix);
